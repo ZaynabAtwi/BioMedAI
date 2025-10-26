@@ -9,7 +9,8 @@ The framework integrates heterogeneous data sources — Scania (sensor-based) an
 By combining tabular predictive modeling, natural language processing, and knowledge-based recommendation, this project provides a robust, interpretable, and domain-agnostic maintenance intelligence platform.
 
 ### Repository Structure
-📦 predictive-maintenance-intelligence-suite
+    ```
+**📦 Biomed_AI
 │
 ├── 📁 data/
 │   ├── scania_dataset/
@@ -48,7 +49,7 @@ By combining tabular predictive modeling, natural language processing, and knowl
 │
 ├── requirements.txt
 ├── LICENSE
-└── README.md
+└── README.md**
 
 ### Project Objectives🎗
 #### 1. Failure Risk Prediction (Tabular)
@@ -205,10 +206,13 @@ This project is licensed under the MIT License — see the LICENSE file for deta
 
 Project Lead:
 👩‍💼 Zaynab Atwi
+
 Biomedical Engineer | BCI Researcher | Founder & CEO – VivoSalus Ventures
+
 🔗 [LinkedIn](https://www.linkedin.com/in/zaynabatwi/)
 
 For partnership inquiries or research collaboration, please contact:
+
 📧 [zaynabatwi.143@gmail.com](zaynabatwi.143@gmail.com)
 
 
