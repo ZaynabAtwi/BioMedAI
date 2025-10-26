@@ -8,48 +8,62 @@ The framework integrates heterogeneous data sources — Scania (sensor-based) an
 
 By combining tabular predictive modeling, natural language processing, and knowledge-based recommendation, this project provides a robust, interpretable, and domain-agnostic maintenance intelligence platform.
 
-### Repository Structure
-    ```
-**📦 Biomed_AI
+### ## 📁 Repository Structure
+
+📦 Biomed_AI
 │
 ├── 📁 data/
-│   ├── scania_dataset/
-│   │   ├── data/*.csv
-│   │   └── document/*.pdf
-│   └── maintnet_dataset/
-│       ├── vehicle/*.csv
-│       ├── facility/*.csv
-│       └── aviation/*.csv
+│ ├── 📁 scania_dataset/
+│ │ ├── data/
+│ │ │ ├── train.csv
+│ │ │ ├── test.csv
+│ │ │ └── testlabels.csv
+│ │ └── document/
+│ │ └── reference.pdf
+│ │
+│ └── 📁 maintnet_dataset/
+│ ├── vehicle/
+│ │ ├── tickets.csv
+│ │ ├── work_orders.csv
+│ │ └── parts.csv
+│ ├── facility/
+│ │ ├── tickets.csv
+│ │ └── work_orders.csv
+│ └── aviation/
+│ ├── tickets.csv
+│ └── work_orders.csv
 │
 ├── 📁 notebooks/
-│   ├── 01_scaniadata_eda_preprocessing.ipynb
-│   ├── 02_failure_risk_modeling.ipynb
-│   ├── 03_ticket_triage_nlp.ipynb
-│   ├── 04_parts_technician_recommendation.ipynb
-│   └── 05_evaluation_and_reporting.ipynb
+│ ├── 01_scaniadata_eda_preprocessing.ipynb
+│ ├── 02_failure_risk_modeling.ipynb
+│ ├── 03_ticket_triage_nlp.ipynb
+│ ├── 04_parts_technician_recommendation.ipynb
+│ └── 05_evaluation_and_reporting.ipynb
 │
 ├── 📁 src/
-│   ├── data_pipeline/
-│   │   ├── preprocess_scaniadata.py
-│   │   ├── preprocess_maintnet.py
-│   │   └── feature_store_builder.py
-│   ├── models/
-│   │   ├── failure_risk_lightgbm.py
-│   │   ├── distilbert_triage.py
-│   │   └── apriori_recommendation.py
-│   └── utils/
-│       ├── shap_explainability.py
-│       └── metrics.py
+│ ├── 📁 data_pipeline/
+│ │ ├── preprocess_scaniadata.py
+│ │ ├── preprocess_maintnet.py
+│ │ └── feature_store_builder.py
+│ │
+│ ├── 📁 models/
+│ │ ├── failure_risk_lightgbm.py
+│ │ ├── distilbert_triage.py
+│ │ └── apriori_recommendation.py
+│ │
+│ └── 📁 utils/
+│ ├── shap_explainability.py
+│ └── metrics.py
 │
 ├── 📁 outputs/
-│   ├── cleaned_data/
-│   ├── model_checkpoints/
-│   ├── shap_plots/
-│   └── reports/
+│ ├── cleaned_data/
+│ ├── model_checkpoints/
+│ ├── shap_plots/
+│ └── reports/
 │
 ├── requirements.txt
 ├── LICENSE
-└── README.md**
+└── README.md
 
 ### Project Objectives🎗
 #### 1. Failure Risk Prediction (Tabular)
@@ -205,7 +219,8 @@ This project is licensed under the MIT License — see the LICENSE file for deta
 ### Contact & Collaboration
 
 Project Lead:
-👩‍💼 Zaynab Atwi
+    
+    👩‍💼 Zaynab Atwi
 
 Biomedical Engineer | BCI Researcher | Founder & CEO – VivoSalus Ventures
 
