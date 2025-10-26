@@ -197,7 +197,19 @@ Use: NLP triage, recommendation system, cross-domain learning.
 | **Serving**       | FastAPI (for deployment phase)                                               |
 
 
+### License
 
+This project is licensed under the MIT License — see the LICENSE file for details.
+
+### Contact & Collaboration
+
+Project Lead:
+👩‍💼 Zaynab Atwi
+Biomedical Engineer | BCI Researcher | Founder & CEO – VivoSalus Ventures
+🔗 [LinkedIn](https://www.linkedin.com/in/zaynabatwi/)
+
+For partnership inquiries or research collaboration, please contact:
+📧 [zaynabatwi.143@gmail.com](zaynabatwi.143@gmail.com)
 
 
 
