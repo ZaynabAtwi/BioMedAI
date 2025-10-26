@@ -1,7 +1,7 @@
-# BioMedAI
-## 
+# BioMedAI 👨🏼‍🔬👨🏼‍🔬
+## Where Intelligence solves engineering problems🧑🏼‍⚕️
 
-### Overview
+### Overview👩🏼‍💻
 
 The Predictive Maintenance Intelligence Suite is an end-to-end machine learning system built to predict equipment failures, automate fault triage, and optimize spare-parts and technician assignments.
 The framework integrates heterogeneous data sources — Scania (sensor-based) and MaintNet (vehicle, facility, aviation work orders) — into a unified analytics and decision-support pipeline.
@@ -50,7 +50,7 @@ By combining tabular predictive modeling, natural language processing, and knowl
 ├── LICENSE
 └── README.md
 
-### Project Objectives
+### Project Objectives🎗
 #### 1. Failure Risk Prediction (Tabular)
 
 Predict probability of component or system failure using Scania sensor and operational data.
