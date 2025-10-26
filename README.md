@@ -1,5 +1,5 @@
 # BioMedAI 👨🏼‍🔬👨🏼‍🔬
-## Where Intelligence solves engineering problems🧑🏼‍⚕️
+## Where Intelligence solves medical engineering problems🧑🏼‍⚕️
 
 ### Overview👩🏼‍💻
 
