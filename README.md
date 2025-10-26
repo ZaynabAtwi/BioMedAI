@@ -8,8 +8,8 @@ The framework integrates heterogeneous data sources — Scania (sensor-based) an
 
 By combining tabular predictive modeling, natural language processing, and knowledge-based recommendation, this project provides a robust, interpretable, and domain-agnostic maintenance intelligence platform.
 
-### ## 📁 Repository Structure
-
+### 📁 Repository Structure
+**
 📦 Biomed_AI
 │
 ├── 📁 data/
@@ -64,7 +64,7 @@ By combining tabular predictive modeling, natural language processing, and knowl
 ├── requirements.txt
 ├── LICENSE
 └── README.md
-
+**
 ### Project Objectives🎗
 #### 1. Failure Risk Prediction (Tabular)
 
